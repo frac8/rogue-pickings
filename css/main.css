@@ -8,6 +8,7 @@ body {
   font-family: 'Montserrat', Arial, sans-serif;
   color: #000000;
   font-size: 14px;
+  text-align: justify;
 }
 
 .container {
@@ -15,8 +16,7 @@ body {
   margin: 0 auto;
 }
 
-.top-section,
-.bottom-section {
+.top-section, .bottom-section {
 	margin: 0 auto;
 	clear: both;
 }
@@ -46,8 +46,7 @@ h4 {
 /***** HEADER *****/
 
 header {
-	height: 110px;
-	border-bottom: 3px solid #77a466;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -81,7 +80,18 @@ nav ul li a {
 }
 
 /***** TOP SECTION *****/
+
+.top-section {
+  border-bottom: 1px solid #dedbdc;
+}
+
+.main-image {
+  text-align: center;
+}
+
 .main-image img{
+  max-width: 1200px;
+  border-top: 3px solid #77a466;
   border-bottom: 3px solid #77a466;
 }
 
@@ -92,8 +102,7 @@ nav ul li a {
 /***** BOTTOM SECTION *****/
 
 .one-third, .two-third, .three-third {
-  border-top: 1px solid #dedbdc;
-  width: 355px;
+  width: 359px;
   padding: 0 20px;
 }
 
@@ -105,8 +114,8 @@ nav ul li a {
 .two-third {
   float: left;
   height: auto;
-  border-right: 1px solid #dedbdc;
   border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
 }
 
 .three-third {
